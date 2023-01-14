@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box1{
+  /* position: relative; */
+  height: 65vh;
+  border: 2px solid;
+  text-align: center;
+  background-color: rgb(2, 2, 2);
+}
+
+.box1 h2{
+  font-size: 3em;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  /* margin-bottom: 40px; */
+}
+
+/* Upper box lat&long */
+#latt{
+  /* position: relative; */
+  color: #ffffff;
+  display: flex; 
+  gap: 4px;
+  margin-top: -3%;
+  margin-left: 6%;
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+#lont{
+  color: white;
+  display: flex; 
+  margin-top: -6.7%;
+  font-size: 2em;
+  margin-left: 55%;
+}
+
+.heading2 h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 3em;
+  margin-left: 3%;
+}
+
+.box3 {
+  position: absolute;
+  display: grid;
+  height: 55em;
+  border: 1px solid;
+  margin-left: 3%;
+  width: 90vw;
+  margin-bottom: 1em;
+}
+
+#loco, #lat, #lon, #time, 
+#winds, #pres, #humi, #windd, #feel{
+  display: flex;
+  margin-left: 1%;
+  font-size: 2em;  
+}
+
+.space{
+  margin-right: 0.5em;
+}
+
+/* Ends here */
